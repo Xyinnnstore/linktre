@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Xyinnn Store – Official Link</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Anime background -->
+  <div id="bg"></div>
+
+  <!-- Particle mesh -->
+  <canvas id="mesh"></canvas>
+
+  <!-- Main card -->
+  <main class="card" data-tilt>
+    <div class="avatar-wrapper">
+      <img class="avatar" src="data:image/jpeg;base64,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" alt="Xyinnn" />
+    </div>
+
+    <h1 class="title">Xyinnn Store</h1>
+    <p class="sub">Official link & support</p>
+
+    <a class="btn wa" href="https://chat.whatsapp.com/Dx3o4D42k64CQ9uWEZUUT5?mode=ac_t" target="_blank">
+      <span class="icon">💬</span> Gabung Grup WhatsApp
+    </a>
+
+    <a class="btn saweria" href="https://sociabuzz.com/xyinnnstore" target="_blank">
+      <span class="icon">☕</span> Trakteer di Saweria
+    </a>
+  </main>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
